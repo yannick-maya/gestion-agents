@@ -63,13 +63,9 @@
 </style>
 
 <div class="container mt-4">
-    <!-- Lien pour créer un dossier -->
-    <a href="{{ route('dossiers_electoraux.create') }}" class="btn btn-success mb-3">
-        <i class="fas fa-plus-circle"></i> Créer un Nouveau Dossier
-    </a>
-
+  
      <!-- Titre principal -->
-     <h2 class="mb-4 text-center" style="font-family: 'Poppins', sans-serif; font-weight: 600;">
+     <h2 class="mb-4 text-center" style=" font-family: 'Poppins', sans-serif; font-weight: 600;">
         Liste des Dossiers Électoraux
     </h2>
 
@@ -134,6 +130,11 @@
             </div>
         </form>
     </div>
+      <!-- Lien pour créer un dossier -->
+      <a href="{{ route('dossiers_electoraux.create') }}" style="margin-left:200px" class="btn btn-success mb-3">
+        <i class="fas fa-plus-circle"></i> Créer un Nouveau Dossier
+    </a>
+
     <!-- Tableau des dossiers -->
     <div class="table-container">
         <div class="table-responsive" style="max-height: 400px;">

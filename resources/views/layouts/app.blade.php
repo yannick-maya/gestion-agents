@@ -219,7 +219,7 @@
 
     <div class="d-flex">
         <!-- Barre latérale -->
-        <div class="sidebar">
+        <div class="sidebar" style="padding-top:30px;">
             <h3 class="text-white text-center">Gestion Agents</h3>
 
            
@@ -231,11 +231,11 @@
                 <li class="nav-item"><a href="{{ route('secteurs.index') }}" class="nav-link"><i class="fas fa-check"></i> Verifier les candidatures</a></li>
                 <li class="nav-item"><a href="{{ route('sections.index') }}" class="nav-link"><i class="fas fa-th-list"></i> Rapport des candidatures</a></li>
                 <li class="nav-item"><a href="{{ route('lieux_inscription.index') }}" class="nav-link"><i class="fas fa-print"></i> Importer des donnees</a></li>
+               <li class="nav-item"> <a href=""> <i class="fas fa-cogs nav-item">  </i>Parametres
+            </a></li>
             </ul>
 
            
-                <i class="fas fa-cogs"></i>
-            </a>
         </div>
 
         <!-- Contenu principal -->

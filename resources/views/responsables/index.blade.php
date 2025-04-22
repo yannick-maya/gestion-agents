@@ -36,10 +36,10 @@
 }
 
 </style>
-<div class="container">
-    <h2>Liste des Responsables</h2>
+<div class="container" style="margin-left:80px;">
+    <h2 style="text-align:center;">Liste des Responsables</h2>
 
-    <a href="{{ route('responsables.create') }}" class="btn btn-primary mb-3">Ajouter un Responsable</a>
+    <a href="{{ route('responsables.create') }}" class="btn btn-success mb-3">+ Ajouter un Responsable</a>
 
     <table class="table table-bordered">
         <thead>

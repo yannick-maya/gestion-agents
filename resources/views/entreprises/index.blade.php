@@ -39,10 +39,10 @@
 
 </style>
 
-<div class="card">
+<div class="card" style="margin-left: 90px;">
     <div class="card-header">
-        <h3>Liste des Entreprises</h3>
-        <a href="{{ route('entreprises.create') }}" class="btn btn-primary btn-sm float-end">Ajouter une Entreprise</a>
+        <h3 style="text-align:center;">Liste des Entreprises</h3>
+        <a href="{{ route('entreprises.create') }}" class="btn btn-success btn-sm float-end">+ Ajouter une Entreprise</a>
     </div>
     <div class="card-body">
         <table class="table table-striped">

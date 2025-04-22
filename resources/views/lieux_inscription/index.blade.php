@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h2>Liste des Lieux d'Inscription</h2>
-    <a href="{{ route('lieux_inscription.create') }}" class="btn btn-primary mb-3">Ajouter un Lieu</a>
+<div class="container" style="margin-left: 200px;">
+    <h2 style="text-align:center;">Liste des Lieux d'Inscription</h2>
+    <a href="{{ route('lieux_inscription.create') }}" class="btn btn-success mb-3">Ajouter un Lieu</a>
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -12,7 +12,7 @@
                 <th>Actions</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody style="text-align:center;">
             @foreach ($lieuxInscription as $lieu)
                 <tr>
                     <td>{{ $lieu->id }}</td>

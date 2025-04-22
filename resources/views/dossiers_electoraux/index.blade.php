@@ -65,12 +65,12 @@
 <div class="container mt-4">
   
      <!-- Titre principal -->
-     <h2 class="mb-4 text-center" style=" font-family: 'Poppins', sans-serif; font-weight: 600;">
+     <h2 class="mb-4 text-center" style=" position:fd;  font-family: 'Poppins', sans-serif; font-weight: 600;">
         Liste des Dossiers Électoraux
     </h2>
 
     <!-- Section de filtrage des critères -->
-    <div class="filter-section mb-4">
+    <div class="filter-section mb-4" style="top:100px;">
         <h5 class="text-center mb-3" style="color: #2980B9; font-weight: bold;">
             <i class="fas fa-filter"></i> Filtrer les Dossiers
         </h5>

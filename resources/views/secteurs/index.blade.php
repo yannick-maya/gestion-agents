@@ -3,9 +3,9 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <h2>Liste des Secteurs</h2>
-    <a href="{{ route('secteurs.create') }}" class="btn btn-primary">Ajouter un Secteur</a>
+<div class="container" style="margin-left: 200px;">
+    <h2 style="text-align:center;">Liste des Secteurs</h2>
+    <a href="{{ route('secteurs.create') }}" class="btn btn-success">Ajouter un Secteur</a>
 
     @if(session('success'))
         <div class="alert alert-success mt-3">
@@ -13,7 +13,7 @@
         </div>
     @endif
 
-    <table class="table mt-3">
+    <table class="table mt-3" style="text-align:center;">
         <thead>
             <tr>
                 <th style="position: sticky; top: 0;">ID</th>
